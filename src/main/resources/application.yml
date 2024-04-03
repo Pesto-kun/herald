@@ -1,3 +1,13 @@
 spring:
     application:
         name: herald
+    datasource:
+        url: jdbc:postgresql://localhost/herald
+        username: postgres
+        password: postgres
+    security:
+      user:
+          name: admin
+          password: admin
+energy:
+    url: https://crimea-energy.ru/consumers/powtrans/ptgrafoff
